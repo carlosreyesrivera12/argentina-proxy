@@ -5,12 +5,11 @@
   "description": "Emula ubicación y IP de Argentina",
   "permissions": [
     "webRequest",
-    "webRequestBlocking",
-    "tabs",
-    "activeTab"
+    "tabs"
   ],
   "host_permissions": [
-    "<all_urls>"
+    "https://*.flow.com.ar/*",
+    "https://argentina-proxy.vercel.app/*"
   ],
   "background": {
     "service_worker": "background.js"
