@@ -1,0 +1,10 @@
+{
+  "name": "argentina-proxy",
+  "version": "1.0.0",
+  "description": "Proxy HTTPS que simula Argentina",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {}
+}
